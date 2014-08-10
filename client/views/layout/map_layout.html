@@ -1,0 +1,20 @@
+<template name="map">
+  <div id="map-canvas">
+  </div>
+  <div id="panel">
+    <h2>Find Location</h2>
+    <input id="address" type="textbox">
+    <button type="button" id="address">find</button>
+  </div>
+  {{> editMarker}}
+</template>
+
+
+<template name="editMarker">
+  <div>
+    <div class="edit-marker">
+      <h2>Add Marker</h2>
+      <button class="createMarker" id="createMarker">Create</button>
+    </div>
+  </div>
+</template>
